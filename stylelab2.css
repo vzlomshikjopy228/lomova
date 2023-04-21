@@ -1,0 +1,10 @@
+#table1 table{
+    border-style: outset;
+}
+#table3 td{
+    width: 200px;
+    height: 20px;
+}
+#table3 caption{
+    font-size: 50px;
+}

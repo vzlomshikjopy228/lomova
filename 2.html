@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylelab2.css">
+    <title>Таблица в html</title>
+</head>
+<body>
+    <a name = "metka2"><h3 align = "center">Таблица №1</h3></a>
+    <div id = "table1">
+        <table align = "center" border = "5" bgcolor = cccc00 cellpadding = 1 cellspacing = 1 bordercolor = gold id = "table">
+            <caption>Таблица истинности</caption>
+            <thead>
+                <tr>
+                    <th><b>A</b></th>
+                    <th><b>B</b></th>
+                    <th><b>A and B</b></th>
+                    <th><b>A or B</b></th>
+                    <th><b>not A</b></th>
+                    <th><b>not B</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </tbody> 
+        </table>
+    </div>
+    <hr size = 1> 
+    <h3 align = "center">Таблица № 2</h3>
+    <div id = "table2">
+        <table align = "center" bgcolor = "cyan" bordercolor = "black" border = "1" cellspacing = "0">
+        <caption>Густонаселенные города</caption>
+        <thead align = "center">
+            <tr>
+                <th><b>Город</b></th>
+                <th><b>Население</b></th>
+                <th><b>Страна</b></th>
+                <th><b>Координаты</b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Буэнос-Айрес</td>
+                <td>12 955 300</td>
+                <td>Аргентина</td>
+                <td>34<sup>ᴼ</sup>37<sup>ʹ</sup>ю.ш. 58<sup>ᴼ</sup>22<sup>ʹ</sup>з.д.</td>
+            </tr>
+            <tr>
+                <td>Бомбей</td>
+                <td>12 147 100</td>
+                <td rowspan = "2">Индия</td>
+                <td>18<sup>ᴼ</sup>58<sup>ʹ</sup>с.ш. 72<sup>ᴼ</sup>49<sup>ʹ</sup>в.д.</td>
+            </tr>
+            <tr>
+                <td>Дели</td>
+                <td>10 009 200</td>
+                <td>28<sup>ᴼ</sup>40<sup>ʹ</sup>с.ш. 77<sup>ᴼ</sup>13<sup>ʹ</sup>в.д.</td>
+            </tr>
+            <tr>
+                <td>Сеул</td>
+                <td>11 153 200</td>
+                <td>Корея Южная</td>
+                <td>37<sup>ᴼ</sup>34<sup>ʹ</sup>с.ш. 126<sup>ᴼ</sup>59<sup>ʹ</sup>в.д.</td>
+            </tr>
+            <tr>
+                <td>Карачи</td>
+                <td>10 272 500</td>
+                <td>Пакистан</td>
+                <td>24<sup>ᴼ</sup>52<sup>ʹ</sup>с.ш. 67<sup>ᴼ</sup>1<sup>ʹ</sup>в.д.</td>
+            </tr>
+            <tr>
+                <td>Манила</td>
+                <td>10 133 200</td>
+                <td>Филипинны</td>
+                <td>14<sup>ᴼ</sup>37<sup>ʹ</sup>с.ш. 120<sup>ᴼ</sup>58<sup>ʹ</sup>в.д.</td>
+            </tr>
+            <tr>
+                <td>Сан-Паулу</td>
+                <td>10 057 700</td>
+                <td rowspan = "2">Бразилия</td>
+                <td>23<sup>ᴼ</sup>32<sup>ʹ</sup>ю.ш. 46<sup>ᴼ</sup>38<sup>ʹ</sup>з.д.</td>
+            </tr>
+            <tr>
+                <td>Рио-де-Жанейро</td>
+                <td>6 029 300</td>
+                <td>22<sup>ᴼ</sup>55<sup>ʹ</sup>ю.ш. 43<sup>ᴼ</sup>12<sup>ʹ</sup>з.д.</td>
+            </tr>
+        </tbody>
+        </table>
+        <hr size = "1">
+    </div>
+    <h3 align = "center">Таблица № 3</h3>
+    <div id = "table3">
+        <table border = "2" bgcolor = "white" align = "left" bordercolor = "yellow" cellspacing = "0">
+            <caption>Мое расписание на неделю</caption>
+            <tr>
+                <td style = "text-align: center;"><font face = "Verdana" size = "3"><b>Понедельник</b></font></td>
+                <td style = "text-align: center;"><font face = "Verdana" size = "3"><b>Время</b></font></td>
+            </tr>
+            <tr>
+                <td>Подъем</td>
+                <td>7:00</td>
+            </tr>
+            <tr>
+                <td>Колледж</td>
+                <td>8:45 - 15:35</td>
+            </tr>
+            <tr>
+                <td>Отбой</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td colspan = "2" style = "text-align: center;"><font face = "Verdana" size = "3"><b>Вторник</b></font></td>
+            </tr>
+            <tr>
+                <td>Подъем</td>
+                <td>7:00</td>
+            </tr>
+            <tr>
+                <td>Колледж</td>
+                <td>8:45 - 11:55</td>
+            </tr>
+            <tr>
+                <td>Отбой</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td colspan = "2" style = "text-align: center;"><font face = "Verdana" size = "3"><b>Среда</b></font></td>
+            </tr>
+            <tr>
+                <td>Подъем</td>
+                <td>7:00</td>
+            </tr>
+            <tr>
+                <td>Колледж</td>
+                <td>10:25 - 15:35</td>
+            </tr>
+            <tr>
+                <td>Отбой</td>
+                <td>22:00</td>
+            <tr>
+                <td colspan = "2" style = "text-align: center;"><font face = "Verdana" size = "3"><b>Четверг</b></font></td>
+            </tr>
+            <tr>
+                <td>Подъем</td>
+                <td>7:00</td>
+            </tr>
+            <tr>
+                <td>Колледж</td>
+                <td>8:45 - 13:55</td>
+            </tr>
+            <tr>
+                <td>Музыкальная школа</td>
+                <td>14:40 - 20:00</td>
+            </tr>
+            <tr>
+                <td>Отбой</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td colspan = "2" style = "text-align: center;"><font face = "Verdana" size = "3"><b>Пятница</b></font></td>
+            </tr>
+            <tr>
+                <td>Подъем</td>
+                <td>7:00</td>
+            </tr>
+            <tr>
+                <td>Колледж</td>
+                <td>8:45 - 13:55</td>
+            </tr>
+            <tr>
+                <td>Отбой</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td colspan = "2" style = "text-align: center;"><font face = "Verdana" size = "3"><b>Суббота</b></font></td>
+            </tr>
+            <tr>
+                <td>Подъем</td>
+                <td>7:00</td>
+            </tr>
+            <tr>
+                <td>Колледж</td>
+                <td>8:45 - 13:35</td>
+            </tr>
+            <tr>
+                <td>Музыкальная школа</td>
+                <td>19:00 - 20:00</td>
+            </tr>
+                <td>Отбой</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td colspan = "2" style = "text-align: center;"><font face = "Verdana" size = "3"><b>Воскресенье</b></font></td>
+            </tr>
+            <tr>
+                <td>Подъем</td>
+                <td>7:00</td>
+            </tr>
+            <tr>
+                <td>Игра на гитаре</td>
+                <td>12:00 - 15:30</td>
+            </tr>
+            <tr>
+                <td>Игра в игры</td>
+                <td>16:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Отбой</td>
+                <td>22:00</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+ 
